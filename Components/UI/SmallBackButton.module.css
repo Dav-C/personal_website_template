@@ -1,0 +1,15 @@
+.button {
+    background: #FFFFFF;
+    border: 2px solid white;
+    font-size: .8rem;
+    width: 5rem;
+    color: #000000;
+    border-radius: .25rem;
+}
+
+@media (hover: hover) {
+    .button:hover {
+        background: transparent;
+        color: #FFFFFF;
+    }
+}

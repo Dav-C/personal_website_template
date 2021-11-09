@@ -1,0 +1,29 @@
+.header {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    padding: 3rem;
+    font-size: 4rem;
+    font-weight: 300;
+    white-space: nowrap;
+}
+.vertical-lines-container {
+    display: flex;
+}
+.line-left {
+    border-left: 1px solid white;
+    height: 5rem;
+}
+.line-right {
+    border-right: 1px solid white;
+    height: 5rem;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+  .header {
+    font-size: 2.75rem;
+  }
+}

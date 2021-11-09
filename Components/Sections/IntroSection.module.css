@@ -1,0 +1,40 @@
+.header {
+    text-align: center;
+    padding: 1rem;
+    width: 75%;
+    font-size: 1.75rem;
+    border-bottom: 2px solid white;
+    margin: 2rem 0;
+}
+.section, .header {
+    width: clamp(18rem, 90%, 60rem);
+}
+.section {
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    padding: 2rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    background: rgba(0, 0, 0, 0.5);
+}
+.image-container {
+    position:relative;
+    min-width: 25%;
+}
+.description-text {
+    padding: 0 1rem;
+    min-width: 75%;
+}
+.button-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem
+}
+@media only screen and (max-width: 768px) {
+  .section {
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+}

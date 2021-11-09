@@ -1,0 +1,19 @@
+.button {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    border: 2px solid white;
+    font-size: 1.25rem;
+    width: 10rem;
+    border-radius: .25rem;
+}
+.button:active {
+    background: #FFFFFF;
+    color: #000000
+}
+
+@media (hover: hover) {
+    .button:hover {
+        background: #FFFFFF;
+        color: #000000
+    }
+}

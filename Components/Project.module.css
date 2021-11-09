@@ -1,0 +1,85 @@
+.button-box {
+    display: flex;
+    padding: .3rem;
+    background-color: white;
+}
+.button {
+    margin: .5rem;
+    color: #FFFFFF;
+}
+.blue {
+    background-color: blue;
+}
+.blue:hover {
+    background-color: darkblue;
+}
+.green {
+    background-color: green;
+}
+.green:hover {
+    background-color: darkgreen;
+}
+.content-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-box header {
+    background-color: #763626;
+    font-size: 1.2rem;
+    padding: .75rem;
+    width: 100%;
+    margin-bottom: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+}
+.gallery-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+}
+.gallery-item {
+    position: relative;
+    margin: 5px;
+    border-radius: .25rem;
+    overflow: hidden;
+    border: 3px solid white;
+}
+@media (hover: hover) {
+    .gallery-item:hover {
+        background: cornflowerblue;
+        border: 3px inset cornflowerblue;
+    }
+    .gallery-img:hover {
+        opacity: .7;
+    }
+}
+.gallery-item:active {
+    border: 3px solid #763626;
+    background: cornflowerblue;
+}
+.image-container {
+
+}
+.gallery-img {
+    display: block;
+    max-width: 100%;
+    z-index: -2;
+}
+.item-desc {
+    font-weight: 100;
+    font-size: 1.2rem;
+    bottom: 0;
+    padding: 10px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    z-index: 1000;
+}
+
+@media only screen and (max-width: 768px) {
+  .content-box header {
+    font-size: 1rem;
+  }
+}

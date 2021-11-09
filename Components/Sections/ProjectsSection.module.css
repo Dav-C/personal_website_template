@@ -1,0 +1,34 @@
+.header {
+    text-align: center;
+    padding: 1rem;
+    width: 75%;
+    font-size: 1.75rem;
+    border-bottom: 2px solid white;
+    margin: 2rem 0;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    border-radius: .25rem;
+    height: 15rem;
+}
+
+.section, .header {
+    width: clamp(18rem, 90%, 60rem);
+}
+.button-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem
+}
+
+@media only screen and (max-width: 768px) {
+  .section {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: auto;
+  }
+}

@@ -1,0 +1,12 @@
+.image-container {
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.back-button {
+    position: fixed;
+    left: 3%;
+    top: 5%;
+    z-index: 3;
+}
