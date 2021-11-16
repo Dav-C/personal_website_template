@@ -10,4 +10,6 @@ const SmallBackButton = forwardRef(({onClick, href, ...props}, ref) => {
   );
 });
 
+SmallBackButton.displayName = 'SmallBackButton';
+
 export default SmallBackButton;

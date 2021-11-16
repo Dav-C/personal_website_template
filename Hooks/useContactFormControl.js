@@ -148,6 +148,8 @@ const formReducer = (state, action) => {
         }, 100);
 
         // HANDLE THE SUBMITTED FORM DATA HERE
+
+        dispatchForm({type: 'FETCH_FAILED'});
         console.log('FORM SUBMITTED')
     }
     return {

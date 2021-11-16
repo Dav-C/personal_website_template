@@ -13,7 +13,7 @@ const IntroSection = () => {
             <header className={classes.header}>About Me</header>
             <section className={classes.section}>
                 <Box className={classes['image-container']}>
-                    <Image src='/img/pli1.png' height={200} width={200}/>
+                    <Image src='/img/pli1.png' height={200} width={200} alt='headshot_image'/>
                 </Box>
                 <Box className={classes['description-text']}>
                 <p>
@@ -32,7 +32,7 @@ const IntroSection = () => {
                 </Box>
             </section>
                 <Box className={classes['button-box']}>
-                    <Link href='/#projects'>
+                    <Link href='/#projects' passHref>
                         <Button variant="outlined"
                                 startIcon={<ArrowDownwardIcon />}
                                 data-cy='next-section-projects'>Projects

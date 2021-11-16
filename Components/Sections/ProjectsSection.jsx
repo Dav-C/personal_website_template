@@ -35,7 +35,7 @@ const ProjectsSection = () => {
                 />
             </section>
             <Box className={classes['button-box']}>
-                <Link href='/#contact'>
+                <Link href='/#contact' passHref>
                     <Button variant="outlined"
                             startIcon={<ArrowDownwardIcon />}
                             data-cy='next-section-contact'>Contact

@@ -26,7 +26,8 @@ const LargeButton = (props) => {
                       {iconVisible &&
                           <Image src={props.icon ? props.icon : '/'}
                                  width={50}
-                                 height={50}/>
+                                 height={50}
+                                 alt='button_icon'/>
                       }
                   </Box>
                 <Box className={classes['button-text']}>

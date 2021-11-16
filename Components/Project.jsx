@@ -53,7 +53,7 @@ const Project = (props) => {
                              className={classes['gallery-item']}
                              onClick={(event) => openImageHandler(event, item.imgLarge)}>
                             <p className={classes['item-desc']}>{item.desc}</p>
-                            <img className={classes['gallery-img']} src={item.imgSmall} loading='lazy'/>
+                            <img className={classes['gallery-img']} src={item.imgSmall} loading='lazy' alt='gallery_image'/>
                         </div>
                     ))}
                 </Box>

@@ -7,7 +7,6 @@ import {StyledEngineProvider} from "@mui/material";
 
 import { ThemeProvider } from '@mui/material/styles';
 import Theme from "../styles/theme";
-import {Head} from "next/document";
 
 function MyApp({ Component, pageProps }) {
   return (

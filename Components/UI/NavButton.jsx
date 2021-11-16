@@ -9,4 +9,6 @@ const NavButton = forwardRef(({onClick, href, ...props}, ref) => {
   );
 });
 
+NavButton.displayName = 'NavButton';
+
 export default NavButton;

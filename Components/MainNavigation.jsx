@@ -17,8 +17,8 @@ const MainNavigation = () => {
         <nav className={classes.nav}>
             <Link href='/#intro' passHref><NavButton btnText='INTRO'/></Link>
             <Link href='/#projects' passHref><NavButton btnText='PROJECTS'/></Link>
-            <Link href='https://www.linkedin.com/'><NavButton btnText='LINKEDIN'/></Link>
-            <Link href='https://github.com/'><NavButton btnText='GITHUB'/></Link>
+            <Link href='https://www.linkedin.com/' passHref><NavButton btnText='LINKEDIN'/></Link>
+            <Link href='https://github.com/' passHref><NavButton btnText='GITHUB'/></Link>
             <Link href='/#contact' passHref><NavButton btnText='CONTACT'/></Link>
         </nav>
     </div>
