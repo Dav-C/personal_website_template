@@ -30,7 +30,7 @@ const Layout = (props) => {
     return (
         <Fragment>
             <Head>
-                <title>David Cates</title>
+                <title>Your Name</title>
                 <link
                     rel="stylesheet"
                     href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
